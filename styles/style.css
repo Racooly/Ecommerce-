@@ -197,7 +197,7 @@ nav a:nth-child(2){
     display: flex;
     align-items: center;
 }
-/*Making footer*/
+/*Making footer */
 footer{
     display: flex;
     justify-content: space-between;
