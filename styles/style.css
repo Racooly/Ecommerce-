@@ -1,0 +1,224 @@
+:root{
+    --red: #CA1212;
+    --black:#252525;
+    --blue: #1753DA;
+    --text:  #747474;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+header{
+    height: 70px;
+    padding: 0px 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 113px;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    transition: .3s;
+}
+a:hover{
+    color: var(--red)
+}
+a:first-child{
+    color: var(--red);
+}
+nav a:nth-child(2){
+    margin-left: 63px;
+    margin-right: 63px;
+}
+.header_logo img:first-child{
+    margin-right: 33px;
+}
+.first-chair{
+    width: 925px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 113px;
+    padding: 0px 30px;
+}
+.first-chair > img{
+    display: block;
+}
+.name{
+    width: 484px;
+    margin-bottom: 10px;
+}
+.circles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 104px;
+    gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.circle{
+    width: 28px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    background-color: var(--red);
+    border-radius: 50%;
+}
+.circle .blue{
+    background: var(--blue);
+}
+.circle .black{
+    background: black;
+}
+.info p{
+    color: var(--red);
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 392px;
+}
+.buttons button{
+    background-color: var(--red);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.buy{
+    width: 300px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 24px;
+}
+#cart{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pop{
+    text-align: center;
+    margin-bottom: 89px;
+}
+.Populars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 90px;
+    margin-bottom: 87px;
+}
+.card{
+    width: 334px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.card-info{
+    padding: 0px 10px;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0 , 0.15);
+}
+.price{
+    width: 112px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+    color: white;
+    margin-bottom: 3px;
+}
+.card .desc{
+    width: 280px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.register-for-sales{
+    width: 100%;
+    height: 200px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 59px;
+}
+.register-for-sales .registerfor{
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+}
+.register-for-sales .email{
+    width: 279px;
+    height: 56px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 0px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+.register-for-sales .submit{
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    background: var(--red);
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;font-weight: 500;
+    font-size: 24px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 114px;
+}
+.Footer_el h3{
+    font-weight: 500;
+    font-size: 24px;
+}
+.Footer_el .qve{
+    text-align: center;
+    color: var(--text);
+    font-size: 16px;
+    cursor: pointer;
+}
+.Footer_el .qve:hover{
+    color: #606060;
+}
+.Footer_el .apple{
+    width: 300px;
+}
+.imgs{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_el .pay{
+    margin-bottom: 20px;
+}
