@@ -1,3 +1,4 @@
+/*Color Variables*/
 :root{
     --red: #CA1212;
     --black:#252525;
@@ -11,6 +12,7 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
+/*Header styles*/
 header{
     height: 70px;
     padding: 0px 62px;
@@ -39,6 +41,7 @@ nav a:nth-child(2){
 .header_logo img:first-child{
     margin-right: 33px;
 }
+/*Making first chair styles*/
 .first-chair{
     width: 925px;
     margin: auto;
@@ -54,6 +57,7 @@ nav a:nth-child(2){
     width: 484px;
     margin-bottom: 10px;
 }
+/*making color choosing buttons*/
 .circles{
     display: flex;
     justify-content: space-between;
@@ -116,6 +120,7 @@ nav a:nth-child(2){
     align-items: center;
     justify-content: center;
 }
+/*Popular gaming chairs styles*/
 .pop{
     text-align: center;
     margin-bottom: 89px;
@@ -192,6 +197,7 @@ nav a:nth-child(2){
     display: flex;
     align-items: center;
 }
+/*Making footer*/
 footer{
     display: flex;
     justify-content: space-between;
