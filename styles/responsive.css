@@ -1,6 +1,48 @@
-
 @media screen and (max-width: 900px) { 
     .register-for-sales .registerfor{
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .first-chair{
+        width: 100%;
+        justify-content: center;
+    }
+    .first-chair .info{
+        padding: 10px;
+    }
+    .Populars{
+        justify-content: center;
+    }
+    .register-for-sales .submit{
+        width: 116px;
+        height: 36px;
+        font-size: 14px;
+    }
+    .register-for-sales .email{
+        width: 200px;
+        height: 36px;
+        font-size: 14px;
+    }
+    footer{
+        justify-content: center;
+        padding: 20px 20px;
+    }
+}
+@media screen and (max-width: 700px){
+    .register-for-sales{
+        padding: 30px;
+    }
+    header .burger{
+        display: inline;
+    }
+    header nav, .header_logo{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px){
+    .register-for-sales{
+        justify-content: space-between;
     }
 }
