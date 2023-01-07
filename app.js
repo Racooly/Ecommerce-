@@ -3,5 +3,5 @@ const user = document.getElementById('userLogo')
 const regCont = document.getElementById('registerCont')
 
 user.addEventListener('click', ()=>{
-    regCont.classList.toggle('deactive')
+    regCont.classList.toggle('active')
 })
