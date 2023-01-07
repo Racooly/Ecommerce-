@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/style.css">
+    <script src="app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -18,10 +20,21 @@
             <a href="#">Locations</a>
         </nav>
         <div class="header_logo">
-            <img src="/images/User.svg" alt="user">
+            <img id="userLogo" src="/images/User.svg" alt="user">
             <img src="/images/cart.svg" alt="cart">
         </div>
     </header>
+    <!--on user click -->
+    <div class="registr" id="registerCont">
+        <h2>Register</h2>
+        <div class="flexInputs">
+            <input type="text" name="name" placeholder="Enter Your name">
+            <input type="text" name="text" placeholder="Last name">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="password" name="pass" placeholder="Create a password">
+            <input type="button" value="Register">
+        </div>
+    </div>
    <!--making first chair-->
    <div class="first-chair">
      <img src="/images/Ergonomic gaming chair.svg" alt="Ergonomic chair">
@@ -56,7 +69,7 @@
             <div class="price">
                 <p>$349.99</p>
             </div>
-            <p class="desc">Best gaming chair in 2022</p>
+            <p class="desc">Vinseto sviwel Gaming Chair</p>
            </div>  
     </div>
     <div class="card">
@@ -65,7 +78,7 @@
             <div class="price">
                 <p>$349.99</p>
             </div>
-            <p class="desc">Best gaming chair in 2022</p>
+            <p class="desc">X rocker vortex gaming chair</p>
            </div>  
     </div>
     <div class="card">
@@ -79,7 +92,7 @@
     </div>
    </div>
    <div class="register-for-sales">
-        <p class="registerfor">For more news about sales please enter your mail </p>
+        <p class="registerfor">For more news about sales please enter your email </p>
        <div class="inputs">
         <input class="email" type="email" name="email" placeholder="Enter your Email ">
         <input class="submit" type="submit" value="Register">
